@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <title>MAPRE Escalation Trends — Q2 and Q3 2026</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 24px; color: #222; }
+    h1 { color: #0f5fa8; }
+    h2 { color: #333; border-bottom: 2px solid #e0e0e0; padding-bottom: 6px; margin-top: 32px; }
+    h3 { color: #333; margin-top: 16px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+    th, td { border: 1px solid #ddd; padding: 8px 10px; font-size: 13px; vertical-align: top; }
+    th { background: #f5f7fa; text-align: left; font-weight: 600; }
+    tr:nth-child(even) { background: #fafafa; }
+    .num { text-align: center; }
+    .up { color: #c0392b; font-weight: 600; }
+    .down { color: #27ae60; font-weight: 600; }
+    .flat { color: #888; }
+    .na { color: #aaa; font-style: italic; }
+    .meta { background: #f0f4f9; padding: 12px 16px; border-radius: 6px; margin-bottom: 24px; font-size: 13px; }
+    .theme-card { background: #fff; border-left: 4px solid #0f5fa8; padding: 20px; margin-bottom: 24px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .theme-table { border: none; margin-bottom: 0; }
+    .theme-table th, .theme-table td { border: none; padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+    .theme-table th { background: transparent; }
+    a { color: #0f5fa8; }
+    ul { margin: 4px 0; }
+    li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <h1>MAPRE Mapping-Related Escalation Trends</h1>
+  <div class="meta">
+    <b>Year:</b> 2026 &nbsp;|&nbsp;
+    <b>Quarters:</b> Q2, Q3 &nbsp;|&nbsp;
+    <b>ERECSO tickets analyzed:</b> 6 &nbsp;|&nbsp;
+    <b>Generated:</b> 2026-10-15 20:57
+  </div>
+
+  <h2>1. Quarterly Aggregate Trend</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Quarter</th><th>Date Range</th><th>Total Linked ERE Tickets</th><th>QoQ Delta</th><th>QoQ %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><b>Q2</b></td><td>2026/04/01 – 2026/07/01</td><td class='num'>25</td><td class='num'>—</td><td class='num'>—</td></tr>
+<tr><td><b>Q3</b></td><td>2026/07/01 – 2026/10/01</td><td class='num'>13</td><td class='num'><span class="down">▼ 12</span></td><td class='num'>-48.0%</td></tr>
+
+    </tbody>
+  </table>
+
+  <h2>2. Per-ERECSO Ticket Breakdown</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ERECSO Key</th><th>Summary</th>
+        <th>Q2</th><th>Q3</th>
+        <th>Δ Q2→Q3</th>
+        <th>All-Time Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-143' target='_blank'>ERECSO-143</a></td><td>Region Overload on ESSL due to VIP (non-SNI) traffic</td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3428%2C%20ERE-3369%2C%20ERE-3335%2C%20ERE-3332%29' target='_blank' title='ERE-3428, ERE-3369, ERE-3335, ERE-3332'>4</a></td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3500%2C%20ERE-3483%2C%20ERE-3462%2C%20ERE-3444%29' target='_blank' title='ERE-3500, ERE-3483, ERE-3462, ERE-3444'>4</a></td><td class='num'><span class="flat">— 0</span></td><td class='num'>11</td></tr>
+<tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-104' target='_blank'>ERECSO-104</a></td><td>Persisting in-region load balancing issues due to traffic spikes post SNId rollout</td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3439%2C%20ERE-3415%2C%20ERE-3410%2C%20ERE-3395%2C%20ERE-3390%2C%20ERE-3367%2C%20ERE-3364%2C%20ERE-3358%2C%20ERE-3356%2C%20ERE-3344%2C%20ERE-3325%2C%20ERE-3322%2C%20ERE-3305%2C%20ERE-3277%29' target='_blank' title='ERE-3439, ERE-3415, ERE-3410, ERE-3395, ERE-3390, ERE-3367, ERE-3364, ERE-3358, ERE-3356, ERE-3344, ERE-3325, ERE-3322, ERE-3305, ERE-3277'>14</a></td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3535%2C%20ERE-3468%2C%20ERE-3441%29' target='_blank' title='ERE-3535, ERE-3468, ERE-3441'>3</a></td><td class='num'><span class="down">▼ 11</span></td><td class='num'>52</td></tr>
+<tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-46' target='_blank'>ERECSO-46</a></td><td>Mapping Pingpoint Issues</td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3391%2C%20ERE-3315%29' target='_blank' title='ERE-3391, ERE-3315'>2</a></td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3550%2C%20ERE-3539%29' target='_blank' title='ERE-3550, ERE-3539'>2</a></td><td class='num'><span class="flat">— 0</span></td><td class='num'>29</td></tr>
+<tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-123' target='_blank'>ERECSO-123</a></td><td>Overloaded regions due to midgress traffic - g2g</td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3388%2C%20ERE-3279%29' target='_blank' title='ERE-3388, ERE-3279'>2</a></td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3442%2C%20ERE-3441%29' target='_blank' title='ERE-3442, ERE-3441'>2</a></td><td class='num'><span class="flat">— 0</span></td><td class='num'>5</td></tr>
+<tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-53' target='_blank'>ERECSO-53</a></td><td>Midgress region overload due to SR/SS traffic</td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3360%2C%20ERE-3348%2C%20ERE-3339%29' target='_blank' title='ERE-3360, ERE-3348, ERE-3339'>3</a></td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3494%29' target='_blank' title='ERE-3494'>1</a></td><td class='num'><span class="down">▼ 2</span></td><td class='num'>11</td></tr>
+<tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-140' target='_blank'>ERECSO-140</a></td><td>Overload caused by SR behavior in CloudInterconnect </td><td class='num'>0</td><td class='num'><a href='https://track.akamai.com/jira/issues/?jql=key%20in%20%28ERE-3494%29' target='_blank' title='ERE-3494'>1</a></td><td class='num'><span class="up">▲ 1</span></td><td class='num'>1</td></tr>
+
+    </tbody>
+  </table>
+
+  <h2>3. Top Movers (Q2→Q3)</h2>
+  <h3 style="color:#c0392b;">Top Increases</h3>
+  <table>
+    <thead><tr><th>Key</th><th>Summary</th><th>Delta</th></tr></thead>
+    <tbody><tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-140' target='_blank'>ERECSO-140</a></td><td>Overload caused by SR behavior in CloudInterconnect </td><td class='num'><span class="up">▲ 1</span></td></tr></tbody>
+  </table>
+  <h3 style="color:#27ae60;">Top Decreases</h3>
+  <table>
+    <thead><tr><th>Key</th><th>Summary</th><th>Delta</th></tr></thead>
+    <tbody><tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-104' target='_blank'>ERECSO-104</a></td><td>Persisting in-region load balancing issues due to traffic spikes post SNId rollout</td><td class='num'><span class="down">▼ 11</span></td></tr><tr><td><a href='https://track.akamai.com/jira/browse/ERECSO-53' target='_blank'>ERECSO-53</a></td><td>Midgress region overload due to SR/SS traffic</td><td class='num'><span class="down">▼ 2</span></td></tr></tbody>
+  </table>
+
+  <h2>4. Theme Analysis & Mitigation Status</h2>
+
+    <div class="theme-card">
+        <h3 style="color:#0f5fa8; margin-bottom: 12px;">
+            <a href="https://track.akamai.com/jira/browse/ERECSO-50" target="_blank" style="text-decoration: none;">ERECSO-50</a> / <a href="https://track.akamai.com/jira/browse/ERECSO-104" target="_blank" style="text-decoration: none;">ERECSO-104</a>: Region Overload due to large spiky traffic on multiple regions post SNID rollout <span style="font-size: 0.8em; color: #666;">(52 cases)</span>
+        </h3>
+        <table class="theme-table">
+            <tr>
+                <td style="width: 30%; vertical-align: top;"><b>Impacted Metric</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>response time</li><li>ghost suspensions</li><li>flit to bit</li><li>flit to hit</li></ul></td>
+            </tr>
+      <tr>
+                <td style="vertical-align: top;"><b>Impacted Customers</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Viacom 18 (12 tickets)</li><li>BBC (8 tickets)</li><li>Coupang (6 tickets)</li><li>Disney Streaming Services (6 tickets)</li><li>JIOSTAR (5 tickets)</li><li>NBCUniversal (5 tickets)</li><li>The Weather (4 tickets)</li><li>Harmonic (3 tickets)</li><li>Netmarble Games (3 tickets)</li><li>Pt Bank Mandiri Persero (3 tickets)</li><li>Rakuten (3 tickets)</li><li>Sky Deutschland (3 tickets)</li><li>Culver Max (2 tickets)</li><li>Eterno Infotech (2 tickets)</li><li>Expedia (2 tickets)</li><li>Fidelity Information Services (2 tickets)</li><li>JPMorgan Chase (2 tickets)</li><li>Liberty (2 tickets)</li><li>Novi Digital (2 tickets)</li><li>Oppo Electronics (2 tickets)</li><li>Pt Tokopedia (2 tickets)</li><li>Star India (2 tickets)</li><li>WarnerMedia (2 tickets)</li><li>Wdr Westdeutscher Rundfunk (2 tickets)</li><li>Zee Enterprises (2 tickets)</li><li>Aeon Financial (1 ticket)</li><li>Amazon (1 ticket)</li><li>Appsflyer (1 ticket)</li><li>Banco Bradesco (1 ticket)</li><li>Beijing Cloudwise Information (1 ticket)</li><li>Crunchyroll (1 ticket)</li><li>Cyber Agent (1 ticket)</li><li>Dpg (1 ticket)</li><li>Fukuoka Financial (1 ticket)</li><li>Hulu (1 ticket)</li><li>IBM Bluemix (1 ticket)</li><li>Jio (1 ticket)</li><li>Jio Hotstar (1 ticket)</li><li>Kbc (1 ticket)</li><li>Microsoft (1 ticket)</li><li>Naver Cloud (1 ticket)</li><li>Nike (1 ticket)</li><li>Oversea Chinese Banking (1 ticket)</li><li>Pt Aliansi Teknologi Indonesia (1 ticket)</li><li>Punto Fa S L (1 ticket)</li><li>Roblox (1 ticket)</li><li>Roblox Direct Customer (1 ticket)</li><li>Samsung Electronics (1 ticket)</li><li>Sercotel S A De (1 ticket)</li><li>Sky Italia S R (1 ticket)</li><li>Sky UK (1 ticket)</li><li>Sony Interactive (1 ticket)</li><li>Sony Interactive Platform (1 ticket)</li><li>Sony Interactive Playstation Np (1 ticket)</li><li>Teg Pty (1 ticket)</li><li>Tesco Stores (1 ticket)</li><li>Tiktok Pte (1 ticket)</li><li>Unas Productions (1 ticket)</li><li>Unity Sf (1 ticket)</li><li>Uol Pagseguro (1 ticket)</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Mitigation / Status</b></td>
+                <td><div>Spiky traffic gaps: only 50% of overloading problems addressed; region-wide overloads partially in scope; g2g traffic out of scope. Non-TC: Ghost Reliability outcome (<a href="https://track.akamai.com/jira/browse/ETGP-1366" target="_blank" style="color: #0066cc; text-decoration: none;">ETGP-1366</a>); Traffic Control PLT targeted for Q4 2026</div><div><ul style='margin: 6px 0 0 20px;'><li>Traffic Control PLT: Improve Loadbalancing due to spiky traffic (<a href="https://track.akamai.com/jira/browse/PORTFOLIO-S-405" target="_blank" style="color: #0066cc; text-decoration: none;">PORTFOLIO-S-405</a>)</li><li>Ghost Reliability outcome (<a href="https://track.akamai.com/jira/browse/ETGP-1366" target="_blank" style="color: #0066cc; text-decoration: none;">ETGP-1366</a> - Client Robustness Protection)</li><li><a href="https://akamai.aha.io/ideas/COREREL-I-38" target="_blank" style="color: #0066cc; text-decoration: none;">COREREL-I-38</a>: Status details unavailable from API</li><li><a href="https://track.akamai.com/jira/browse/PORTFOLIO-S-405" target="_blank" style="color: #0066cc; text-decoration: none;">PORTFOLIO-S-405</a>: Status details unavailable from API</li></ul></div><div><b>Recent Jira status updates</b><ul style='margin: 6px 0 0 20px;'><li>Solution Patching &amp; Idea Generation Review 8/19: Largest ticket with 80 escalations, mostly legacy backlog from 2-3 years ago; One linked AHA is marked as shipped, but the problem (legacy non-SNID deployments / VIP load balancing on ESSL) still exists</li></ul></div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="theme-card">
+        <h3 style="color:#0f5fa8; margin-bottom: 12px;">
+            <a href="https://track.akamai.com/jira/browse/ERECSO-46" target="_blank" style="text-decoration: none;">ERECSO-46</a>: Mapping Pingpoint Issues <span style="font-size: 0.8em; color: #666;">(29 cases)</span>
+        </h3>
+        <table class="theme-table">
+            <tr>
+                <td style="width: 30%; vertical-align: top;"><b>Impacted Metric</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>response time</li><li>routing inefficiency (OOC/suboptimal mapping)</li><li>reliability impact</li></ul></td>
+            </tr>
+      <tr>
+                <td style="vertical-align: top;"><b>Impacted Customers</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Coupang (2 tickets)</li><li>Sisal (2 tickets)</li><li>The Weather (2 tickets)</li><li>Amazon (1 ticket)</li><li>Bell Canada (1 ticket)</li><li>Conecta 5 Telecinco S (1 ticket)</li><li>Dillards (1 ticket)</li><li>Disney Streaming Services (1 ticket)</li><li>Fukuoka Financial (1 ticket)</li><li>Groupe Canal Plus (1 ticket)</li><li>Grupo Godo De Comunicacion (1 ticket)</li><li>IBM Watson Platform Cloud (1 ticket)</li><li>Loblaws (1 ticket)</li><li>Mastercard (1 ticket)</li><li>Mizuho Financial (1 ticket)</li><li>Mizuho Research And (1 ticket)</li><li>Naver Cloud (1 ticket)</li><li>Samsung Card (1 ticket)</li><li>Satofull (1 ticket)</li><li>Shanghai Xingyin Tech (1 ticket)</li><li>Sk Telecom (1 ticket)</li><li>Sky Deutschland (1 ticket)</li><li>Spotify (1 ticket)</li><li>T-Mobile (1 ticket)</li><li>Times Internet (1 ticket)</li><li>Twitch (1 ticket)</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Mitigation / Status</b></td>
+                <td><div>Reactive mitigation in place (PP blacklisting), but gaps remain in PP selection and recovery time. Need faster detection/recovery of bad pingpoints, improved mapping/scoring logic, and better visibility. Aha: <a href="https://akamai.aha.io/ideas/MD-I-46" target="_blank" style="color: #0066cc; text-decoration: none;">MD-I-46</a></div><div><ul style='margin: 6px 0 0 20px;'><li>Reassignment to healthy/secondary PPs</li><li>Manual PP overrides for critical cases</li><li><a href="https://track.akamai.com/jira/browse/ETGP-3194" target="_blank" style="color: #0066cc; text-decoration: none;">ETGP-3194</a></li><li><a href="https://akamai.aha.io/ideas/MD-I-46" target="_blank" style="color: #0066cc; text-decoration: none;">MD-I-46</a>: Status details unavailable from API</li></ul></div><div><b>Recent Jira status updates</b><ul style='margin: 6px 0 0 20px;'><li>Yaroslav confirmed this work is in progress and tracked by outcome ticket: [ ETA Q2 2027</li></ul></div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="theme-card">
+        <h3 style="color:#0f5fa8; margin-bottom: 12px;">
+            <a href="https://track.akamai.com/jira/browse/ERECSO-143" target="_blank" style="text-decoration: none;">ERECSO-143</a>: Region Overload on ESSL due to VIP (non-SNI) traffic <span style="font-size: 0.8em; color: #666;">(11 cases)</span>
+        </h3>
+        <table class="theme-table">
+            <tr>
+                <td style="width: 30%; vertical-align: top;"><b>Impacted Metric</b></td>
+                <td></td>
+            </tr>
+      <tr>
+                <td style="vertical-align: top;"><b>Impacted Customers</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Sercotel S A De (2 tickets)</li><li>Aeon Financial (1 ticket)</li><li>Bitunix Exchange (1 ticket)</li><li>Coupang (1 ticket)</li><li>IBM Bluemix (1 ticket)</li><li>Myntra Designs (1 ticket)</li><li>Nba Ventures (1 ticket)</li><li>Paramount (1 ticket)</li><li>Sky UK (1 ticket)</li><li>Sumitomo Mitsui Banking Japan (1 ticket)</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Mitigation / Status</b></td>
+                <td><div><ul style='margin: 6px 0 0 20px;'><li><a href="https://track.akamai.com/jira/browse/IEOP-2452" target="_blank" style="color: #0066cc; text-decoration: none;">IEOP-2452</a>: Move ESSL traffic from TripD to SNId to address VIP traffic overload</li></ul></div><div><b>Recent Jira status updates</b><ul style='margin: 6px 0 0 20px;'><li>Angela: For VIP (non-SNI) traffic, there is one project ongoing: ESSL traffic migration from TripD to SNId, currently the design is in Arch Review: [</li></ul></div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="theme-card">
+        <h3 style="color:#0f5fa8; margin-bottom: 12px;">
+            <a href="https://track.akamai.com/jira/browse/ERECSO-53" target="_blank" style="text-decoration: none;">ERECSO-53</a>: Midgress region overload due to SR/SS traffic <span style="font-size: 0.8em; color: #666;">(11 cases)</span>
+        </h3>
+        <table class="theme-table">
+            <tr>
+                <td style="width: 30%; vertical-align: top;"><b>Impacted Metric</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Availability</li><li>Latency</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Impacted Customers</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Amazon (1 ticket)</li><li>Applovin (1 ticket)</li><li>Chengdu Mxc (1 ticket)</li><li>Disney Streaming Services (1 ticket)</li><li>Fashnear (1 ticket)</li><li>JIOSTAR (1 ticket)</li><li>JPMorgan Chase (1 ticket)</li><li>Lloyds Banking (1 ticket)</li><li>Meesho (1 ticket)</li><li>Viacom 18 (1 ticket)</li><li>Zomato (1 ticket)</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Mitigation / Status</b></td>
+                <td><div>Current Jira status: Open. Focus: Midgress region overload due to SR/SS traffic.</div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="theme-card">
+        <h3 style="color:#0f5fa8; margin-bottom: 12px;">
+            <a href="https://track.akamai.com/jira/browse/ERECSO-123" target="_blank" style="text-decoration: none;">ERECSO-123</a>: Overloaded regions due to midgress traffic - g2g <span style="font-size: 0.8em; color: #666;">(5 cases)</span>
+        </h3>
+        <table class="theme-table">
+            <tr>
+                <td style="width: 30%; vertical-align: top;"><b>Impacted Metric</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Metric details not explicitly captured in ticket text/comments</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Impacted Customers</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Wdr Westdeutscher Rundfunk (2 tickets)</li><li>Disney Streaming Services (1 ticket)</li><li>JIOSTAR (1 ticket)</li><li>Zee (1 ticket)</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Mitigation / Status</b></td>
+                <td><div>Current Jira status: Open. Focus: Overloaded regions due to midgress traffic - g2g.</div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="theme-card">
+        <h3 style="color:#0f5fa8; margin-bottom: 12px;">
+            <a href="https://track.akamai.com/jira/browse/ERECSO-140" target="_blank" style="text-decoration: none;">ERECSO-140</a>: Overload caused by SR behavior in CloudInterconnect  <span style="font-size: 0.8em; color: #666;">(1 cases)</span>
+        </h3>
+        <table class="theme-table">
+            <tr>
+                <td style="width: 30%; vertical-align: top;"><b>Impacted Metric</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Metric details not explicitly captured in ticket text/comments</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Impacted Customers</b></td>
+                <td><ul style='margin: 0; padding-left: 20px;'><li>Meesho (1 ticket)</li></ul></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><b>Mitigation / Status</b></td>
+                <td><div>Current Jira status: Open. Focus: Overload caused by SR behavior in CloudInterconnect.</div></td>
+            </tr>
+        </table>
+    </div>
+
+
+  <h2>5. Data Quality / Limitations</h2>
+  <ul>
+    <li>Linked ERE ticket counts use <code>createdDate</code> within the quarter window.</li>
+    <li>Only <code>ERECSO-*</code> tickets with label <code>CSO_Mapper</code> are included.</li>
+  </ul>
+</body>
+</html>
